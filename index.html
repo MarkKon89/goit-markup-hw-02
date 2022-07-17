@@ -4,30 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/Style.css" />
     <title>Studio</title>
   </head>
   <body>
     <header>
-      <a href="index.html">Web<span>Studio</span></a>
+      <a class="web_logo" href="index.html"
+        ><h2>
+          <span class="Web">Web</span><span class="studio_black">Studio</span>
+        </h2></a
+      >
       <nav>
-        <ul>
-          <li><a class="accent">Agencj2a</a></li>
-          <li><a class="accent">Portfolio</a></li>
-          <li><a class="accent">Kontakt</a></li>
+        <ul class="list">
+          <li><a class="accent" href="">Agencja</a></li>
+          <li><a class="accent" href="portfolio.html">Portfolio</a></li>
+          <li><a class="accent" href="">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="+48111111111">+48 111 111 111</a></li>
+      <ul class="list">
+        <li>
+          <a class="foot" href="info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li><a class="foot" href="+48111111111">+48 111 111 111</a></li>
       </ul>
     </header>
     <main>
-      <div>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+      <div class="main">
+        <h1 class="main_title" style="text-align: center">
+          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+        </h1>
+        <button type="button" class="button_order">Zamów usługę</button>
       </div>
       <div>
-        <ul>
+        <ul class="list">
           <li>
             <h4>LOREM IPSUM</h4>
             <pre>
@@ -68,7 +83,7 @@
       </div>
       <div>
         <h2>Czym się zajmujemy</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href="">
               <img
@@ -104,7 +119,7 @@
       <div>
         <h2>Nasz Zespół</h2>
 
-        <ul>
+        <ul class="list">
           <li>
             <img src="images/Team1.jpg" alt="JD1" width="270" height="260" />
             <p>John Doe</p>
@@ -128,16 +143,25 @@
         </ul>
       </div>
     </main>
-    <footer>
+    <footer class="line">
       <div>
         <address>
-          <a href="index.html">Web<span>Studio</span></a>
+          <a class="web_logo" href="index.html"
+            ><h2>
+              <span class="Web">Web</span
+              ><span class="studio_white">Studio</span>
+            </h2>
+          </a>
         </address>
 
-        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+        <address class="adress_link">
+          m. Warszawa, Aleje Jerozolimskie 21
+        </address>
         <address>
-          <a href="info@devstudio.com">info@devstudio.com</a>
-          <a href="+48111111111">+48 111 111 111</a>
+          <a class="footer_link" href="info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="footer_link" href="+48111111111">+48 111 111 111</a>
         </address>
       </div>
     </footer>
